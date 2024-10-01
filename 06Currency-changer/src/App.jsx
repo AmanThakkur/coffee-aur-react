@@ -7,8 +7,8 @@ import { useState } from 'react'
 
 function App() {
   const [amount, setAmount] = useState(0)
-  const [from, setFrom] = useState("USD")
-  const [to, setTo] = useState("INR")
+  const [from, setFrom] = useState("usd")
+  const [to, setTo] = useState("inr")
   const [convertedamonut, setConvertedamount] = useState(0)
 
   const [currencyinfo, setCurrencyinfo] = useCurrencyInfo('usd')
